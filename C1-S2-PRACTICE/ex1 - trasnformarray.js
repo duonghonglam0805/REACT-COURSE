@@ -12,8 +12,8 @@
  */
 function transformToObjects(listOfNumbers) {
     result = [];
-    result=listOfNumbers.map(
-        number=>"Val:"+number
+    listOfNumbers.map(
+        (number)=>result.push({'Val':number})
     );
     // Write your code here
     return result;
